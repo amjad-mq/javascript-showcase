@@ -59,3 +59,16 @@ let value = 45
 value = String(value)
 console.log(value)
 console.log(typeof value)
+
+
+
+// =========> Operations <============
+
+let neg = 56
+neg = -neg
+console.log(neg)
+
+console.log("1" + 2)
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
+console.log(1 + 2)
