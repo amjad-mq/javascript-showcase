@@ -8,7 +8,7 @@ let backticksString = `hey` // Backticks allow you to embed expressions (variabl
 // --> Strings Concatination
 
 let greeting = "Hello"
-let nam = 'Amjad'
+let name = 'Amjad'
 let message = greeting + " " + name + "!"
 console.log(message)
 
