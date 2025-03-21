@@ -16,3 +16,34 @@ console.log(message)
 
 message = `${greeting} ${name}!`
 console.log(message)
+
+// Another way to declear a string.
+
+const country = new String('Pakistan')
+console.log(country)
+
+console.log(country[0], country[2])
+
+console.log(country.__proto__)
+console.log(country.indexOf("i"))
+console.log(country.toUpperCase())
+
+// SubString
+
+const subName = country.slice(0,3)
+console.log(subName)
+
+// We can give negative index values in slice method.
+
+console.log(country.slice(-4, -1))
+
+// Trim method.
+
+const password = "     12345    "
+console.log(password)
+console.log(password.trim())
+
+// Replace method.
+
+const url = "https//github.com/amjad%20mq"
+console.log(url.replace('%20', '-'))
