@@ -56,3 +56,6 @@ console.log(isFinite("hello")); // false
 console.log(Number.isInteger(10)); // true
 console.log(Number.isInteger(3.14)); // false
 console.log(Number.isInteger("100")); // false
+
+
+console.log(((Math.random()*100) + 1).toFixed(0))
