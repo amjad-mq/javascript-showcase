@@ -17,7 +17,7 @@ function countdown(targetDate) {
         
         console.log(`⏳ Countdown to Eid: ${days}d ${hours}h ${minutes}m`);
 
-    }, 60000);  // Updates every 60,000ms (1 minute)
+    }, 3000);  
 }
 
 // 🌙 Eid-ul-Fitr 2025 Countdown (April 1, 2025)
