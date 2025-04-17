@@ -25,10 +25,10 @@ console.log(product)
 
 const divide = (a, b) => a/b
 const div = divide(12, 3)
-console.log(div)
+console.log(div);
 
 // Imidiate invoke function
 
-// (function() {
-//     console.log("Runs immediately!");
-// })();
+(function() {
+    console.log("Runs immediately!");
+})();
