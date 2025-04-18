@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style</title>
+</head>
+
+<body>
+    <h1>What can Js do</h1>
+    <p id="para">JavaScript can change the style of css.</p>
+    <button type="button" onclick="changeStyle()">Change Style</button>
+
+    <script>
+        const para = document.getElementById("para");
+
+        function changeStyle() {
+            para.style.fontSize = '40px';
+        }
+    </script>
+</body>
+
+</html>

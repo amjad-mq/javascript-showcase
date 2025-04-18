@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Values</title>
+</head>
+
+<body>
+    <h2>What can JavaScript do</h2>
+    <p>JavaScript can change attributes of values</p>
+    <p>In this content javascript will change src attribute of img.</p>
+    <img id="myImg" src="images/moon.jpeg" alt="moon images" srcset="" width="300px">
+    <button type="button" onclick="moon()">Moon</button>
+    <button type="button" onclick="sun()">Sun</button>
+
+    <script>
+        const img = document.getElementById("myImg");
+        function moon() {
+            img.src = "images/moon.jpeg";
+            img.alt = "moon image";
+        }
+
+        function sun() {
+            img.src = "images/sun.jpeg";
+            img.alt = "sun image";
+        }
+
+    </script>
+</body>
+
+</html>
